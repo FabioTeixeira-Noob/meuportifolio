@@ -10,11 +10,11 @@ const SkillsSection = () => {
     <section id="skills" className="py-20 bg-primary-dark">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-2 text-text">Minhas <span className="text-accent">Habilidades</span></h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-2 text-text">My <span className="text-accent">Skills</span></h2>
           <div className="h-1 w-20 bg-accent mx-auto mb-6"></div>
           <p className="text-text-secondary max-w-2xl mx-auto">
-            Uma visão geral das minhas competências técnicas em desenvolvimento e análise de dados, 
-            organizadas por categorias.
+            An overview of my technical competencies in development and data analysis, 
+            organized by categories.
           </p>
         </div>
         
@@ -22,7 +22,7 @@ const SkillsSection = () => {
           {/* Skill Radar Chart (simulated with CSS) */}
           <div className="md:w-1/3 mb-8 md:mb-0">
             <div className="bg-primary-light p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-semibold text-text mb-4 text-center">Habilidades Técnicas</h3>
+              <h3 className="text-xl font-semibold text-text mb-4 text-center">Technical Skills</h3>
               <div className="aspect-square relative">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <svg viewBox="0 0 200 200" className="w-full">
@@ -82,7 +82,7 @@ const SkillsSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Languages */}
               <div className="bg-primary-light p-6 rounded-lg shadow-lg">
-                <h3 className="text-lg font-semibold text-text mb-4">Linguagens</h3>
+                <h3 className="text-lg font-semibold text-text mb-4">Languages</h3>
                 <div className="space-y-4">
                   {languageSkills.map((skill) => (
                     <div key={skill.name} className="space-y-1">
@@ -124,7 +124,7 @@ const SkillsSection = () => {
               
               {/* Tools */}
               <div className="bg-primary-light p-6 rounded-lg shadow-lg">
-                <h3 className="text-lg font-semibold text-text mb-4">Ferramentas</h3>
+                <h3 className="text-lg font-semibold text-text mb-4">Tools</h3>
                 <div className="space-y-4">
                   {toolSkills.map((skill) => (
                     <div key={skill.name} className="space-y-1">
@@ -145,10 +145,10 @@ const SkillsSection = () => {
             </div>
 
             <div className="mt-8 p-6 bg-primary-light rounded-lg shadow-lg">
-              <h3 className="text-lg font-semibold text-text mb-4">Experimente Meu Código</h3>
+              <h3 className="text-lg font-semibold text-text mb-4">Try My Code</h3>
               <div className="font-mono text-sm bg-primary p-4 rounded overflow-auto text-text-secondary" style={{ maxHeight: '200px' }}>
                 <pre>{`
-// Exemplo de uma API REST em Spring Boot
+// Example of a REST API in Spring Boot
 @RestController
 @RequestMapping("/api/data")
 public class DataAnalysisController {

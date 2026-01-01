@@ -7,10 +7,10 @@ const ExperienceSection = () => {
     <section id="experience" className="py-20 bg-primary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-2 text-text">Experiência <span className="text-accent">Profissional</span></h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-2 text-text">Professional <span className="text-accent">Experience</span></h2>
           <div className="h-1 w-20 bg-accent mx-auto mb-6"></div>
           <p className="text-text-secondary max-w-2xl mx-auto">
-            Minha trajetória profissional, formação acadêmica e certificações técnicas.
+            My professional journey, academic background, and technical certifications.
           </p>
         </div>
         
@@ -20,7 +20,7 @@ const ExperienceSection = () => {
             <div className="bg-primary-light p-6 rounded-lg shadow-lg">
               <div className="flex items-center mb-6">
                 <Briefcase className="text-accent h-6 w-6 mr-3" />
-                <h3 className="text-xl font-semibold text-text">Experiência</h3>
+                <h3 className="text-xl font-semibold text-text">Experience</h3>
               </div>
               
               <div className="space-y-8">
@@ -45,13 +45,12 @@ const ExperienceSection = () => {
               </div>
             </div>
           </div>
-          
           <div className="space-y-8">
             {/* Education */}
             <div className="bg-primary-light p-6 rounded-lg shadow-lg">
               <div className="flex items-center mb-6">
                 <GraduationCap className="text-accent h-6 w-6 mr-3" />
-                <h3 className="text-xl font-semibold text-text">Educação</h3>
+                <h3 className="text-xl font-semibold text-text">Education</h3>
               </div>
               
               <div className="space-y-4">
@@ -66,30 +65,27 @@ const ExperienceSection = () => {
             </div>
 
             {/* Competitions */}
-         
-          <div className="bg-primary-light p-6 rounded-lg shadow-lg">
-            <div className="flex items-center mb-6">
-              <Award className="text-accent h-6 w-6 mr-3" />
-              <h3 className="text-xl font-semibold text-text">Competições</h3>
+            <div className="bg-primary-light p-6 rounded-lg shadow-lg">
+              <div className="flex items-center mb-6">
+                <Award className="text-accent h-6 w-6 mr-3" />
+                <h3 className="text-xl font-semibold text-text">Competitions</h3>
+              </div>
+              <div className="space-y-4">
+                {competitions.map((competition, index) => (
+                  <div key={index} className="pb-4 last:pb-0 border-b last:border-b-0 border-primary">
+                    <h4 className="font-semibold text-text">{competition.name}</h4>
+                    <p className="text-text-secondary">{competition.organizer}</p>
+                    <p className="text-sm text-accent">{competition.placement} – {competition.year}</p>
+                  </div>
+                ))}
+              </div>
             </div>
-
-            <div className="space-y-4">
-              {competitions.map((competition, index) => (
-                <div key={index} className="pb-4 last:pb-0 border-b last:border-b-0 border-primary">
-                  <h4 className="font-semibold text-text">{competition.name}</h4>
-                  <p className="text-text-secondary">{competition.organizer}</p>
-                  <p className="text-sm text-accent">{competition.placement} – {competition.year}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
             
             {/* Certifications */}
             <div className="bg-primary-light p-6 rounded-lg shadow-lg">
               <div className="flex items-center mb-6">
                 <Award className="text-accent h-6 w-6 mr-3" />
-                <h3 className="text-xl font-semibold text-text">Certificações</h3>
+                <h3 className="text-xl font-semibold text-text">Certifications</h3>
               </div>
               
               <div className="space-y-4">

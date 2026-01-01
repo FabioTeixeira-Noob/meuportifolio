@@ -7,10 +7,11 @@ import SkillsSection from './components/SkillsSection';
 import ExperienceSection from './components/ExperienceSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import HeroGame from './components/HeroGame';
 
 function App() {
   useEffect(() => {
-    document.title = "Fabio Code | Java Developer & Data Analyst";
+    document.title = "Fabio Teixeira | Data Analyst & Software Developer";
 
     document.querySelectorAll('a[href^=\"#\"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {

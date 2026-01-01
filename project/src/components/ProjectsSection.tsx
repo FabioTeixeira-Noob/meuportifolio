@@ -13,11 +13,11 @@ const ProjectsSection = () => {
     <section id="projects" className="py-20 bg-primary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-2 text-text">Meus <span className="text-accent">Projetos</span></h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-2 text-text">My <span className="text-accent">Projects</span></h2>
           <div className="h-1 w-20 bg-accent mx-auto mb-6"></div>
           <p className="text-text-secondary max-w-2xl mx-auto">
-            Uma seleção dos meus trabalhos em desenvolvimento Web e análise de dados, 
-            demonstrando minhas habilidades técnicas e abordagem de solução de problemas.
+            A selection of my work in web development and data analysis, 
+            demonstrating my technical skills and problem-solving approach. (Some still in development).
           </p>
         </div>
         
@@ -32,7 +32,7 @@ const ProjectsSection = () => {
               }`}
               onClick={() => setActiveTab('all')}
             >
-              Todos
+              All
             </button>
             <button
               type="button"
@@ -113,7 +113,7 @@ const ProjectsSection = () => {
                       rel="noopener noreferrer"
                     >
                       <Github className="h-4 w-4 mr-1" />
-                      Código
+                      Code
                     </a>
                   )}
                   {project.demoLink && (

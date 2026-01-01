@@ -3,8 +3,8 @@ import { Project, Skill, Experience, Education, Certification } from '../types';
 export const projects: Project[] = [
   {
     id: 'java-1',
-    title: 'Microserviços para E-Commerce',
-    description: 'Backend escalável para e-commerce construído com arquitetura de microserviços usando Spring Boot. Funcionalidades incluem catálogo de produtos, carrinho de compras, autenticação de usuários e processamento de pedidos.',
+    title: 'Microservices for E-Commerce',
+    description: 'Scalable e-commerce backend built with a microservices architecture using Spring Boot. Features include product catalog, shopping cart, user authentication, and order processing.',
     image: 'https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     category: 'java',
     stack: ['Java', 'Spring Boot', 'Spring Cloud', 'MySQL', 'Docker', 'RabbitMQ'],
@@ -12,8 +12,8 @@ export const projects: Project[] = [
   },
   {
     id: 'java-2',
-    title: 'API Bancária',
-    description: 'API RESTful para um sistema bancário com gerenciamento de contas, transações e funcionalidades de relatórios.',
+    title: 'Banking API',
+    description: 'RESTful API for a banking system with account management, transactions, and reporting features.',
     image: 'https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     category: 'java',
     stack: ['Java', 'Spring Boot', 'JPA/Hibernate', 'PostgreSQL', 'JUnit', 'Swagger'],
@@ -21,8 +21,8 @@ export const projects: Project[] = [
   },
   {
     id: 'java-3',
-    title: 'Aplicativo de Chat em Tempo Real',
-    description: 'Aplicativo de chat com WebSocket com envio de mensagens em tempo real, detecção de presença de usuários e persistência de mensagens.',
+    title: 'Real-Time Chat Application',
+    description: 'WebSocket-based chat application with real-time messaging, user presence detection, and message persistence.',
     image: 'https://images.pexels.com/photos/4126743/pexels-photo-4126743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     category: 'java',
     stack: ['Java', 'Spring Boot', 'WebSocket', 'MongoDB', 'Redis', 'JWT'],
@@ -30,8 +30,8 @@ export const projects: Project[] = [
   },
   {
     id: 'data-1',
-    title: 'Análise de Segmentação de Clientes',
-    description: 'Modelo de segmentação de clientes baseado em aprendizado de máquina para identificar grupos de alto valor com base no histórico de compras e padrões de comportamento.',
+    title: 'Customer Segmentation Analysis',
+    description: 'Machine learning-based customer segmentation model to identify high-value groups based on purchase history and behavioral patterns.',
     image: 'https://images.pexels.com/photos/7567432/pexels-photo-7567432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     category: 'data',
     stack: ['Python', 'Pandas', 'Scikit-learn', 'Matplotlib', 'Jupyter', 'K-means Clustering'],
@@ -39,17 +39,17 @@ export const projects: Project[] = [
   },
   {
     id: 'data-2',
-    title: 'Painel de Previsão de Vendas',
-    description: 'Dashboard interativo no Power BI para previsão de vendas utilizando análise de séries temporais e modelos preditivos.',
+    title: 'Sales Forecast Dashboard',
+    description: 'Interactive Power BI dashboard for sales forecasting using time series analysis and predictive models.',
     image: 'https://images.pexels.com/photos/106344/pexels-photo-106344.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     category: 'data',
-    stack: ['Power BI', 'DAX', 'SQL', 'R', 'Análise de Séries Temporais'],
+    stack: ['Power BI', 'DAX', 'SQL', 'R', 'Time Series Analysis'],
     githubLink: '#',
   },
   {
     id: 'data-3',
-    title: 'Motor de Análise de Sentimentos',
-    description: 'Ferramenta de análise de sentimentos baseada em NLP para analisar feedback de clientes e menções nas redes sociais.',
+    title: 'Sentiment Analysis Engine',
+    description: 'NLP-based sentiment analysis tool for analyzing customer feedback and social media mentions.',
     image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     category: 'data',
     stack: ['Python', 'NLTK', 'spaCy', 'TensorFlow', 'Flask', 'MongoDB'],
@@ -58,7 +58,7 @@ export const projects: Project[] = [
 ];
 
 export const skills: Skill[] = [
-  // Linguagens
+  // Languages
   { name: 'Java', level: 95, category: 'language' },
   { name: 'SQL', level: 90, category: 'language' },
   { name: 'Python', level: 85, category: 'language' },
@@ -72,7 +72,7 @@ export const skills: Skill[] = [
   { name: 'Scikit-learn', level: 80, category: 'framework' },
   { name: 'React', level: 65, category: 'framework' },
   
-  // Ferramentas
+  // Tools
   { name: 'Git', level: 90, category: 'tool' },
   { name: 'Power BI', level: 85, category: 'tool' },
   { name: 'MySQL', level: 85, category: 'tool' },
@@ -82,87 +82,122 @@ export const skills: Skill[] = [
 
 export const experiences: Experience[] = [
   {
-    company: 'Empresa Nacional de Bilhética Integrada - ENBI',
-    position: 'Analista de Dados',
-    period: '2024 - Presente',
+    company: 'ZTE Angola',
+    position: 'Campus Ambassador',
+    period: '2025 - Present',
     achievements: [
-     'Criei modelos que ajudaram a prever o comportamento dos clientes e com isso a empresa conseguiu manter mais pessoas usando o serviço',
-  'Desenvolvi dashboards que se atualizavam sozinhos, facilitando a visualização dos dados no dia a dia',
-  'Implementei processos pra coletar, organizar e guardar os dados em um lugar só, de forma automática'
+      'Represent the ZTE Nubia brand in the university environment, promoting technological innovation and connectivity initiatives.',
+      'Work on promoting the Management Trainee Program, organizing workshops, and creating bridges between students and professional opportunities in the tech ecosystem.',
     ]
   },
-
+  {
+    company: 'Student Association of the Catholic University of Angola',
+    position: 'Vice-Secretary for Assets and Administration',
+    period: '2025 - Present',
+    achievements: [
+      'Coordinate improvements in shared spaces and equipment.',
+      'Support the execution of academic, cultural, and institutional activities.',
+      'Collaborate with the general secretariat on management and transparency initiatives.'
+    ]
+  },
+  {
+    company: 'Faculty of Engineering - Catholic University of Angola',
+    position: 'Teaching Assistant',
+    period: '2025 - Present',
+    achievements: [
+      'Direct support to the lead professor.',
+      'Prepare materials, exercises, and practical content that enhance the quality of classes and make learning more applied.',
+      'Support the organization of competitions, courses, and extracurricular initiatives.',
+    ]
+  },
+  {
+    company: 'National Integrated Ticketing Company - ENBI',
+    position: 'Data Analyst',
+    period: '2024 - 2025',
+    achievements: [
+      'Processing, cleaning, and structuring large volumes of data.',
+      'Development of dynamic dashboards and reports, facilitating decision-making for technical and administrative areas.',
+      'Creation of key indicators (KPIs) to evaluate performance, operational efficiency, and user behavior.',
+      'Identification of inconsistencies and anomalies in validation data.',
+      'Participation in strategic meetings.'
+    ]
+  },
   {
     company: 'Wellness Tech Inc.',
-    position: 'Desenvolvedor de Sistemas Embarcados',
+    position: 'Embedded Systems Developer',
     period: '2022 - 2023',
     achievements: [
-    'Trabalhei com Arduino criando sistemas eletrônicos que se conectavam à internet e a bancos de dados',
-    'Desenvolvi projetos que captavam dados de sensores e mandavam essas informações pra aplicações online em tempo real',
-    'Monte, testei e ajustei circuitos pra que tudo funcionasse com as plataformas web'
+      'Worked with Arduino creating electronic systems that connected to the internet and databases.',
+      'Developed projects that captured data from sensors and sent this information to online applications in real-time.',
+      'Assembled, tested, and adjusted circuits so everything worked with web platforms.'
     ]
   },
 ];
 
 export const education: Education[] = [
   {
-    degree: 'Ensino Médio em Electrónica e Telecomunicações',
-    institution: 'Instituto de Telecomunicações - ITEL',
-    year: '2019'
+    degree: 'High School in Electronics and Telecommunications',
+    institution: 'Telecommunications Institute - ITEL',
+    year: '2019 - 2023'
   },
   {
-    degree: 'Licenciatura em Engenharia de Telecomunicações',
-    institution: 'Universidade Católica de Angola',
-    year: '2023'
+    degree: 'Bachelor\'s in Telecommunications Engineering',
+    institution: 'Catholic University of Angola',
+    year: '2023 - Present'
   }
 ];
 
 export const competitions = [
   {
-    name: 'Campeonato de Programação - UCAN FAIR TECH ',
-    placement: 'Vencedor',
+    name: 'Programming Championship - UCAN FAIR TECH',
+    placement: 'Winner',
     year: '2025',
-    organizer: 'Universidade Católica de Angola',
+    organizer: 'Catholic University of Angola',
   },
   {
-    name: 'Campeonato Nacional de Robótica - Angola',
-    placement: '3º Lugar',
+    name: 'AOCPC - Angola Open Collegiate Programming Contest',
+    placement: '10th Place Nationally',
+    year: '2025',
+    organizer: 'ISPTEC',
+  },
+  {
+    name: 'National Robotics Championship - Angola',
+    placement: '3rd Place',
     year: '2023',
     organizer: 'AROTEC',
   },
   {
-    name: 'Olímpiada Nacional de Física - Angola',
-    placement: '6º Lugar',
+    name: 'National Physics Olympiad - Angola',
+    placement: '6th Place',
     year: '2024',
-    organizer: 'Associação Angolana de Física',
+    organizer: 'Angolan Physics Association',
   },
 ];
 
-
 export const certifications: Certification[] = [
-
-    {
-    name: 'DATA Science E Machine Learning',
+  {
+    name: 'HCIA SECURITY V4.0',
+    issuer: 'HUAWEI',
+    year: '2025'
+  },
+  {
+    name: 'DATA SCIENCE AND MACHINE LEARNING',
     issuer: 'IBM',
     year: '2025'
-    },
-  
+  },
   {
-    name: 'Fundamentos de Ciência de Dados ',
-    issuer: 'Data science Academy',
+    name: 'DATA SCIENCE FUNDAMENTALS',
+    issuer: 'Data Science Academy',
     year: '2025'
   },
-    {
-    name: 'ORACLE Certified Professional, Java SE 11 Developer',
-    issuer: 'Oracle',
-    year: 'Em progresso'
-  },
-
-
   {
-    name: 'Microsoft Certified: Azure Data Scientist Associate',
-    issuer: 'Microsoft',
-    year: 'Em progresso'
+    name: 'DATABASES WITH SQL',
+    issuer: 'CIFITEL',
+    year: '2025'
   },
-
+  {
+    name: 'MICROSOFT CERTIFIED: AZURE DATA SCIENTIST ASSOCIATE',
+    issuer: 'Microsoft',
+    year: 'In Progress'
+  },
 ];
