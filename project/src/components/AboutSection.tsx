@@ -12,12 +12,10 @@ const AboutSection = () => {
             <h2 className="text-2xl md:text-3xl font-bold mb-2 text-text">About <span className="text-accent">Me</span></h2>
             <div className="h-1 w-20 bg-accent mb-6"></div>
             
-            <p className="text-text-secondary mb-6 leading-relaxed">
-              Hi👋🏽, welcome to my portfolio!<br /><br />
-              
-              Fábio Teixeira is a data analyst and systems developer. Currently a Telecommunications Engineering student, passionate about programming with strong foundations in databases, data modeling, fundamentals, and systems development. His goal is to create solutions that add value and generate results.
+            <p className="text-text-secondary mb-6 leading-relaxed">              
+              Fábio Teixeira a Data Analyst And Systems developer. Currently a Telecommunications Engineering student, passionate about programming with strong foundations in databases, data modeling, and systems development. His goal is to create solutions that add value and generate results.
               <br /><br />
-              I am open to opportunities as an intern or junior in software development or data analysis.💻
+              I am open to challenges.
               
             </p>
 
